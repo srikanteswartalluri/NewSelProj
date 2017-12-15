@@ -10,7 +10,7 @@ public class NewClass {
 
 
         wb.get("https://www.google.co.in");
-
+        System.out.println(wb.getTitle());
         WebElement element = wb.findElement(By.name("q"));
         element.sendKeys("100");
 
